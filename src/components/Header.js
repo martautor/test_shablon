@@ -1,11 +1,12 @@
 import React from 'react';
 import { AppBar, Toolbar, Typography, Button } from '@mui/material';
 import { Link } from 'react-router-dom';
+import { green } from '@mui/material/colors';
 
 const Header = () => {
   return (
     <AppBar position="static">
-      <Toolbar>
+      <Toolbar sx={{ backgroundColor: green[400]}}>
         <Typography variant="h6" sx={{ flexGrow: 1 }}>
           Красивые номера телефонов
         </Typography>
