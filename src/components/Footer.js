@@ -6,7 +6,10 @@ const Footer = () => {
   return (
     <footer style={{ marginTop: '20px', padding: '10px 0', backgroundColor: green[200] }}>
       <Container>
-        <Typography variant="body1" align="center">© 2023 Красивые номера телефонов</Typography>
+        <br/>
+        <Typography variant="body1" align="center">Все права защищены.</Typography>
+        <Typography variant="body1" align="center">© 2023 NEWSIM</Typography>
+        <br/>
       </Container>
     </footer>
   );
